@@ -12,6 +12,6 @@
   },
   "keywords": [],
   "scripts": {
-    "test": "jest --watch **/test.js"
+    "test": "jest --watch"
   }
 }
