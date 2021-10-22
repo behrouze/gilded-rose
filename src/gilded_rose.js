@@ -52,6 +52,8 @@ class Item {
       this.name !== "Backstage passes to a TAFKAL80ETC concert"
     ) {
       if (this.quality > 0 && this.name !== "Sulfuras, Hand of Ragnaros") {
+        if (this.name === "Conjured Mana Cake") this.decreaseQuality();
+
         this.decreaseQuality();
       }
     } else if (this.quality < 50) {

@@ -54,8 +54,8 @@ describe("Gilded Rose update system", function () {
     expect(updatedItems[7].sellIn).toBe(4);
     expect(updatedItems[7].quality).toBe(50);
 
-    // expect(updatedItems[8].name).toBe("Conjured Mana Cake");
-    // expect(updatedItems[8].sellIn).toBe(2);
-    // expect(updatedItems[8].quality).toBe();
+    expect(updatedItems[8].name).toBe("Conjured Mana Cake");
+    expect(updatedItems[8].sellIn).toBe(2);
+    expect(updatedItems[8].quality).toBe(4);
   });
 });
