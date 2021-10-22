@@ -1,8 +1,23 @@
 class Item {
+  // rules = null;
+
   constructor(name, sellIn, quality) {
     this.name = name;
     this.sellIn = sellIn;
     this.quality = quality;
+
+    //// possible use of factory pattern to help cleanup the code
+    // switch (name) {
+    //   case "Sulfuras, Hand of Ragnaros":
+    //     this.rules = {
+    //       quality=1,
+    //       sellIn=1
+    //     }
+    //     break;
+
+    //   default:
+    //     break;
+    // }
   }
 
   updateQualityForNegativeSellIn() {
