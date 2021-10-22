@@ -1,7 +1,7 @@
 const { Shop, Item } = require("../src/gilded_rose");
 
-describe("Gilded Rose", function () {
-  it("should foo", function () {
+describe("Gilded Rose update system", function () {
+  it("should update all items", function () {
     const items = [
       new Item("+5 Dexterity Vest", 10, 20),
       new Item("Aged Brie", 2, 0),
